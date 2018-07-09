@@ -1,5 +1,6 @@
 #!/bin/bash
-# Script used to generate the initial scaffolding and necessary files to run the various experiments
+# Script used to generate the initial scaffolding and necessary files to run the various experiments.
+# Then, the different examples with combined datasets and parameters are run.
 
 if [[ $# -ne 6 ]]; then
     echo "Usage: $0 params_01.csv params_1.csv params_10.csv dataset_10k.csv dataset_100k.csv dataset_1m.csv"
